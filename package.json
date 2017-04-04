@@ -1,0 +1,26 @@
+{
+  "name": "posse-backend-challenge",
+  "version": "1.0.0",
+  "description": "Coding challenge for Posse (backend challenge)",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --ignore node_modules server.js",
+    "test": "mocha test.js",
+    "import": "node importData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xutopia/posse-backend-challenge.git"
+  },
+  "keywords": [
+    "backend",
+    "Posse",
+    "challenge"
+  ],
+  "author": "Tony Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xutopia/posse-backend-challenge/issues"
+  },
+  "homepage": "https://github.com/xutopia/posse-backend-challenge#readme"
+}
