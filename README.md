@@ -8,7 +8,7 @@ Posse Backend Coding Challenge http://goposse.com/
 
 `$npm install`
 
-Before proceeding, please see below `Importing data` instructions to instantiate a MySQL database and import the data
+*Before proceeding, please see below `Importing data` instructions to instantiate a MySQL database and import the data*
 
 `$npm start`
 
