@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/routes');
 
 var app = express();
-var port = 8080;
+var port = process.env.port || 8080;
 var mongoURI = process.env.mongoURI;
 mongoose.connect(mongoURI);
 
