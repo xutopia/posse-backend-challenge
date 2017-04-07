@@ -4,7 +4,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var path = require('path');
 var bodyParser = require('body-parser');
-var routes = require('../routes/routes');
+var routes = require('./routes/routes');
 
 var app = express();
 var port = 8080;
