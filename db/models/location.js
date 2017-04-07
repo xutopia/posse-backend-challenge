@@ -11,13 +11,15 @@ var locationSchema = new Schema({
   country: String,
   services: [{
     platform: String,
+    _id: false,
     programmers: [{
       name: String,
       favorite_color: String,
       age: Number,
       weight: Number,
       phone: String,
-      is_artist: Boolean
+      is_artist: Boolean,
+      _id: false
     }]
   }]
 })
