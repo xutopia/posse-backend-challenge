@@ -5,7 +5,6 @@ var data = require('./dataManipulation/readData');
 var Location = require('./models/location');
 
 var mongoURI = process.env.mongoURI;
-console.log('here is the URI', mongoURI);
 mongoose.connect(mongoURI);
 var db = mongoose.connection;
 
