@@ -5,13 +5,16 @@ var Q = require('q');
 var fetchLocations = Q.nbind(Location.find, Location);
 
 module.exports = {
-  fetch: function(req, res, next) {
+  fetch: function(req, res) {
     fetchLocations({}, '-_id -__v')
     .then(function(locations) {
-      res.json(locations);
+      var data = {
+        locations: locations
+      }
+      res.status(200).send(data);
     })
     .fail(function(err) {
-      next(err);
+      res.json(err);
     });
   }
 };
