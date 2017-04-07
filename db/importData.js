@@ -8,7 +8,10 @@ var mongoURI = process.env.mongoURI;
 mongoose.connect(mongoURI);
 var db = mongoose.connection;
 
+// check for any errors on connection
 db.on('error', console.error.bind(console, 'connection error:'));
+
+// on open of the connection, import the data
 db.once('open', function() {
   var locations = data.response.locations;
 
