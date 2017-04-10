@@ -7,7 +7,6 @@
 | DB refactor          |    4/6    |    3 hours   | Reviewed MongoDB, setup Mlab, parse and import JSON file, create simple server |
 | API setup            |    4/7    |    3 hours   | Create mongoose query, API route, remove the embedded _id field |
 | Final cleanup        |    4/7    |    1 hour    | update README, workLog, test server/route, add comments |
-| Admin Page setup     |    4/9    |    1 hour    | template admin page, form setup |
 
 
 
